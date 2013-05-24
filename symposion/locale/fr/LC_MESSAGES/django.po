@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-05-21 21:30-0400\n"
+"POT-Creation-Date: 2013-05-22 22:49-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -107,6 +107,7 @@ msgid "Pending"
 msgstr "En attente"
 
 #: proposals/models.py:145 templates/proposals/_pending_proposal_row.html:16
+#: templates/proposals/_proposal_row.html:16
 msgid "Accepted"
 msgstr "Accepté"
 
@@ -210,13 +211,25 @@ msgstr "fichier"
 msgid "Dashboard"
 msgstr "tableau de bord"
 
+#: templates/dashboard.html:18
+msgid "Create a speaker profile"
+msgstr "Créer un profil de conférencier"
+
+#: templates/dashboard.html:23
+msgid "Edit your speaker profile"
+msgstr "Modifier le profil de conférencier"
+
+#: templates/dashboard.html:27
+msgid "Submit a new proposal"
+msgstr "Soumettre une proposition"
+
 #: templates/dashboard.html:32
 msgid "Speaking"
 msgstr "Présenter"
 
 #: templates/dashboard.html:34
 msgid "The submission deadline is June 21st, 2013."
-msgstr "La date limite de soumission est le 21 Juin 2013"
+msgstr "La date limite de soumission est le 21 Juin 2013."
 
 #: templates/dashboard.html:35
 msgid ""
@@ -227,18 +240,87 @@ msgstr ""
 "everybody-pays'>tout le minde</a> paye son billet à PyCon, incluant les "
 "présentateurs!"
 
-#: templates/dashboard.html:97 templates/sponsorship/detail.html:8
-msgid "Sponsorship"
-msgstr "Commanditer"
+#: templates/dashboard.html:42
+#, python-format
+msgid ""
+"To submit a proposal, you must first <a href=\"%(speaker_create_url)s"
+"\">create a speaker profile</a>."
+msgstr ""
 
-#: templates/dashboard.html:113 templates/reviews/base.html:6
+#: templates/dashboard.html:44
+msgid "Your Proposals"
+msgstr ""
+
+#: templates/dashboard.html:48 templates/dashboard.html.py:66
+#: templates/dashboard.html:82
+msgid "Title"
+msgstr "Titre"
+
+#: templates/dashboard.html:49 templates/dashboard.html.py:67
+#: templates/dashboard.html:83
+msgid "Session type"
+msgstr ""
+
+#: templates/dashboard.html:50 templates/dashboard.html.py:68
+#: templates/dashboard.html:84 templates/reviews/result_notification.html:47
+msgid "Status"
+msgstr "État"
+
+#: templates/dashboard.html:51 templates/dashboard.html.py:69
+#: templates/dashboard.html:85
+msgid "Actions"
+msgstr ""
+
+#: templates/dashboard.html:58
+msgid "No proposals submitted yet."
+msgstr ""
+
+#: templates/dashboard.html:63
+msgid "Proposals you have joined as an additional speaker"
+msgstr ""
+
+#: templates/dashboard.html:79
+msgid "Proposals you have been invited to join"
+msgstr ""
+
+#: templates/dashboard.html:99 templates/reviews/base.html:6
 #: templates/reviews/review_detail.html:75
 msgid "Reviews"
 msgstr "Analyses"
 
-#: templates/dashboard.html:177
+#: templates/dashboard.html:103
+msgid "Review Sections"
+msgstr ""
+
+#: templates/dashboard.html:111
+msgid "Proposals you have reviewed"
+msgstr ""
+
+#: templates/dashboard.html:114
+msgid "#"
+msgstr ""
+
+#: templates/dashboard.html:115 templates/reviews/_review_table.html:6
+#: templates/reviews/result_notification.html:45
+msgid "Speaker / Title"
+msgstr "Conférencier / Titre"
+
+#: templates/dashboard.html:116
+#, fuzzy
+msgid "Your Vote"
+msgstr "Votre score"
+
+#: templates/dashboard.html:163
 msgid "Teams"
 msgstr "Équipes"
+
+#: templates/dashboard.html:168
+msgid "Your Teams"
+msgstr ""
+
+#: templates/dashboard.html:189
+msgid "Available Teams"
+msgstr ""
 
 #: templates/boxes/box.html:9
 msgid "Editing content:"
@@ -323,10 +405,12 @@ msgid "You have been invited to join \"%(team)s\""
 msgstr "Vous avez été invité à rejoindre \"%(team)s\""
 
 #: templates/proposals/_pending_proposal_row.html:12
+#: templates/proposals/_proposal_row.html:12
 msgid "Cancelled"
 msgstr "Annulé"
 
 #: templates/proposals/_pending_proposal_row.html:18
+#: templates/proposals/_proposal_row.html:18
 msgid "Submitted"
 msgstr "Envoyé"
 
@@ -385,6 +469,18 @@ msgstr "Biographie"
 #: templates/proposals/_proposal_fields.html:40
 msgid "Documents"
 msgstr "Documents"
+
+#: templates/proposals/_proposal_row.html:21
+msgid "Associated"
+msgstr ""
+
+#: templates/proposals/_proposal_row.html:29
+msgid "Edit"
+msgstr ""
+
+#: templates/proposals/_proposal_row.html:30
+msgid "Manage Additional Speakers"
+msgstr ""
 
 #: templates/proposals/proposal_cancel.html:7
 msgid "Cancel Proposal"
@@ -446,7 +542,7 @@ msgstr "Vous pouvez laissez un message pour le comité de sélection ici."
 
 #: templates/proposals/proposal_detail.html:95
 msgid "Submit"
-msgstr "SOumettre"
+msgstr "Soumettre"
 
 #: templates/proposals/proposal_speaker_manage.html:6
 msgid "Proposal Speakers"
@@ -474,12 +570,7 @@ msgstr "Soumettre une proposition"
 
 #: templates/proposals/proposal_submit.html:9
 msgid "Submit a talk"
-msgstr "Soumettre une proposotion de conférence"
-
-#: templates/reviews/_review_table.html:6
-#: templates/reviews/result_notification.html:45
-msgid "Speaker / Title"
-msgstr "Conférencier / Titre"
+msgstr "Soumettre une proposition de conférence"
 
 #: templates/reviews/_review_table.html:7
 #: templates/reviews/result_notification.html:46
@@ -513,10 +604,6 @@ msgstr "Tous les commentaires"
 #: templates/reviews/base.html:79
 msgid "Voting Status"
 msgstr "État du vote"
-
-#: templates/reviews/result_notification.html:47
-msgid "Status"
-msgstr "État"
 
 #: templates/reviews/result_notification.html:48
 msgid "Notified?"
@@ -590,6 +677,10 @@ msgstr "Soumettre une demande de commandite"
 #: templates/sponsorship/apply.html:15
 msgid "Apply to Be a Sponsor"
 msgstr "Soumettre une demande de commandite"
+
+#: templates/sponsorship/detail.html:8
+msgid "Sponsorship"
+msgstr "Commanditer"
 
 #: templates/sponsorship/list.html:7 templates/sponsorship/list.html.py:12
 msgid "Our Sponsors"
