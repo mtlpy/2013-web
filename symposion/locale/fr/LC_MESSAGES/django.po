@@ -223,7 +223,7 @@ msgid ""
 msgstr ""
 "Veuillez noter que <a href='http://jessenoller.com/blog/2011/05/25/pycon-"
 "everybody-pays'>tout le minde</a> paye son billet à PyCon, "
-"incluant les présentateurs!""
+"incluant les présentateurs!"
 
 #: templates/dashboard.html:97 templates/sponsorship/detail.html:8
 msgid "Sponsorship"
