@@ -1,0 +1,29 @@
+DEBUG = False
+TEMPLATE_DEBUG = DEBUG
+
+ADMINS = [
+    'taavi@pycon.ca',
+    'wolever@pycon.ca',
+]
+
+DEFAULT_FROM_EMAIL = 'organizers@pycon.ca'
+
+MANGERS = ADMINS
+
+DATABASES = {
+    "default": {
+        "ENGINE": "django.db.backends.sqlite3",
+        "NAME": "/Users/mlhamel/Documents/montrealpython/2013-web/db.sqlite3",
+    }
+}
+
+
+TIME_ZONE = "America/Toronto"
+
+SECRET_KEY = "keep this very secret"
+
+EMAIL_DEBUG = True # No better clue at this point
+
+# ACCOUNT_* things should probably also get updated here
+
+ROOT_URLCONF = "symposion_project.urls"
