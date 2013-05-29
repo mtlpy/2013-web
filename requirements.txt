@@ -20,6 +20,7 @@ django-mailer==0.2a1
 django-timezones==0.2
 pytz==2012g
 django-model-utils==1.1.0
+django-modeltranslation==0.6.1
 
 django-taggit==0.9.3
 django-reversion==1.6.5
