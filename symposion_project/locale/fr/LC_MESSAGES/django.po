@@ -36,7 +36,7 @@ msgstr "Page non trouvée"
 
 #: templates/404.html:9
 msgid "We're sorry but that page could not be found."
-msgstr "Nous sommes désolé, mais la page n'existe pas."
+msgstr "Nous sommes désolés, mais la page n'existe pas."
 
 #: templates/500.html:5
 msgid "Server Error"
@@ -51,8 +51,8 @@ msgid ""
 "We're sorry but a server error has occurred. We've been notified and will "
 "look into it as soon as possible."
 msgstr ""
-"Nous sommes désolé, mais une erreure interne est arrivée. Nous en avons été "
-"avisé et nous regarderons ce problème le plus tôt possible."
+"Nous sommes désolés, mais une erreure interne est arrivée. Nous en avons été "
+"avisé et nous tenterons de résoudre ce problème."
 
 #: templates/_footer.html:8
 msgid "Get in touch"
@@ -118,7 +118,7 @@ msgstr "Apprendre"
 
 #: templates/_footer.html:65 templates/site_base.html:43
 msgid "Sponsors"
-msgstr "Sponsors"
+msgstr "Commanditaires"
 
 #: templates/_footer.html:66 templates/contact.html:6
 #: templates/contact.html.py:9 templates/contact.html:15
@@ -128,7 +128,7 @@ msgstr "Contact"
 
 #: templates/_sponsor_bar.html:28
 msgid "View full list of sponsors"
-msgstr "Liste complète des commandites"
+msgstr "Liste des commanditaires"
 
 #: templates/_sponsor_bar.html:29
 msgid "Sponsorship details"
@@ -158,26 +158,26 @@ msgstr ""
 "et 2015. Ce sera la première fois que la conférence principale PyCon se "
 "tiendra à l'extérieur des États-Unis. Prenons cette opportunité pour montrer "
 "la vitalité de la communauté Python canadienne, et acceptons le défi comme "
-"présentateur et volontaire. "
+"présentateur et bénévole. "
 
 #: templates/about.html:22
 msgid "ABOUT_GOAL_STRENGTHEN"
 msgstr ""
 "Renforcer la communauté Python canadienne en nous bâtissant de nouvelles "
-"opportunités de partager nos connaissances et nos idées, encourager le "
+"opportunités afin de partager nos connaissances et nos idées, encourager le "
 "support et l'éducation en présentant à une conférence, et en augmentant la "
-"visibilité des développeurs, des organisations et des compagnies dans notre "
+"visibilité des développeurs, des organisations et des compagnies de notre "
 "communauté. "
 
 #: templates/about.html:27
 msgid "ABOUT_VOLUNTEERS"
 msgstr ""
-"PyCon Canada est entièrement organisé par des volontaires passionés par ces "
+"PyCon Canada est entièrement organisé par des bénévoles passionés par ces "
 "objectifs. Nous espérons vous voir à la conférence 2013!"
 
 #: templates/about.html:30
 msgid "Diversity Grants"
-msgstr ""
+msgstr "Bourses de diversité"
 
 #: templates/about.html:32
 msgid ""
@@ -189,6 +189,14 @@ msgid ""
 "underrepresented in the Python community. The application deadline to apply "
 "for a grant is July 1, 2013."
 msgstr ""
+"Nous voulons emmener une grande quantité de gens et d'idées formidables à "
+"se réunir, alors Pythoneux du Canada et ailleurs vous êtes les bienvenus "
+"afin d'assister et présenter à la conférence. PyCon Canada est engagé dans "
+"les principes de diversité et d'inclusion et est un supporteur Argent du "
+"groupe Ladies Learning Code. PyCon Canada offre 500$CAD en bourses de "
+"diversité pour les coûts de transport aux individus qui sont "
+"sous-représentés dans la communauté Python. La date limite pour appliquer "
+"à une bourse est le 1 juillet 2013."
 
 #: templates/about.html:36
 msgid ""
@@ -201,6 +209,8 @@ msgstr ""
 msgid ""
 "If you'd like to speak at PyCon Canada, submissions are due June 21, 2013."
 msgstr ""
+"Si vous désirez faire une présentation à PyCon Canada, soumissionnez avant "
+"le 21 juin 2013."
 
 #: templates/about.html:43 templates/conduct.html:6
 #: templates/conduct.html.py:9 templates/conduct.html:15
@@ -211,8 +221,8 @@ msgstr "Code de conduite"
 msgid "ABOUT_CONDUCT"
 msgstr ""
 "Veuillez vous familiariser avec le <a href='/conduct'>Code de conduite</a> "
-"et faites votre part afin de faire en sorte que PyCon Canada ne finisse pas "
-"sur Hacker News pour de mauvaises raisons. "
+"et faites votre part afin d'éviter que PyCon Canada finisse sur Hacker News "
+"pour les mauvaises raisons. "
 
 #: templates/conduct.html:16
 msgid "CONDUCT_OVERVIEW"
