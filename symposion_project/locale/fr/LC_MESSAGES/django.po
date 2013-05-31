@@ -387,8 +387,8 @@ msgstr "Le « vrai » PyCon (anciennement PyCon US) sera à Montréal en 2014 !"
 #: templates/homepage.html:59
 msgid "FOLLOW_AT_PYCON_FOR_MONTREAL"
 msgstr ""
-"Suivez <a href=\"https://twitter.com/pycon\">@pycon</a> pour restez "
-"aucourant des nouvelles pour PyCon Montréal"
+"Suivez <a href=\"https://twitter.com/pycon\">@pycon</a> pour rester "
+"informé des nouvelles pour PyCon Montréal"
 
 #: templates/homepage.html:71
 #, fuzzy
