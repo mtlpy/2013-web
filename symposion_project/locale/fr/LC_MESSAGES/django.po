@@ -500,6 +500,11 @@ msgid ""
 "of 5 minutes. We also welcome ideas for sprints. The deadline to submit "
 "talks and tutorials is June 21st, 2013."
 msgstr ""
+"Nous préférons les présentations de 20 minutes, même si celles de 45 "
+"minutes seront considérées. Les tutoriels sont d'une durée de 3 heures. "
+"Vous pouvez également vous inscrire à une présentation éclaire de 5 "
+"minutes. Nous encourageons aussi les idées pour les sprints. La date limite "
+"pour soumettre des présentations ou tutoriels est le 21 juin 2013."
 
 #: templates/speak.html:22 templates/speak.html.py:50
 #, python-format
@@ -507,6 +512,8 @@ msgid ""
 "Head over to the <a href=\"%(dashboard_url)s\">dashboard &raquo;</a> to "
 "submit a proposal."
 msgstr ""
+"Allez dans le <a href=\"%(dashboard_url)s\">tableau de bord &raquo;</a> "
+"pour soumettre une proposition."
 
 #: templates/speak.html:26 templates/speak.html.py:54
 #, python-format
@@ -514,12 +521,17 @@ msgid ""
 "Please <a href=\"%(account_signup_url)s\">Create an Account &raquo;</a> or "
 "<a href=\"%(account_login_url)s\">Log in &raquo;</a>."
 msgstr ""
+"SVP <a href=\"%(account_signup_url)s\">Créez un compte &raquo;</a> ou "
+"<a href=\"%(account_login_url)s\">Connectez-vous &raquo;</a>."
 
 #: templates/speak.html:29
 msgid ""
 "Submit your talk if you are logged in. You will need to include the "
 "following information in talk and tutorial proposals:"
 msgstr ""
+"Soumettez votre présentation si vous êtes connecté. Vous aurez aussi "
+"besoin des informations suivantes pour les propositions de présentations "
+"et tutoriels"
 
 #: templates/speak.html:31
 msgid "Name of the talk or tutorial"
@@ -535,11 +547,11 @@ msgstr "Public visé (Niveau de connaissance nécessaire)"
 
 #: templates/speak.html:34
 msgid "Abstract for the talk/tutorial - 300 chars max"
-msgstr ""
+msgstr "Résumé de la présentation/tutoriel - 300 caractères maximum"
 
 #: templates/speak.html:35
 msgid "Outline of the talk/tutorial"
-msgstr ""
+msgstr "Grandes lignes de la présentation/tutoriel"
 
 #: templates/speak.html:36
 msgid ""
@@ -550,7 +562,7 @@ msgstr ""
 
 #: templates/speak.html:39
 msgid "Lightning Talks"
-msgstr ""
+msgstr "Présentations éclair"
 
 #: templates/speak.html:40
 msgid ""
@@ -682,7 +694,7 @@ msgstr "Restaurants"
 
 #: templates/venue.html:34
 msgid "VENUE_FOOD"
-msgstr "À être déterminé."
+msgstr "À déterminer."
 
 #: templates/venue.html:36
 msgid "Hotel"
