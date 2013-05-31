@@ -328,8 +328,8 @@ msgstr "Bienvenue"
 msgid "HOMEPAGE_SPLASH"
 msgstr ""
 "Vous êtes invités à la deuxième édition de la conférence annuelle PyCon "
-"Canada, du 9 au 13 aoûts à Toronto. Ce n'est qu'un réchauffement pour la "
-"première édition de PyCon US à l'extérieur des États-Unis à Montréal en 2014 "
+"Canada, du 9 au 13 août à Toronto. Ce n'est qu'un réchauffement pour "
+"l'édition de PyCon US qui se tiendra pour la première fois à l'extérieur des États-Unis, soit à Montréal en 2014 "
 "et 2015 !"
 
 #: templates/homepage.html:20
@@ -339,9 +339,9 @@ msgstr "PyCon Canada <span>2013 !</span>"
 #: templates/homepage.html:31
 msgid "HOMEPAGE_SPEAK_BLURB"
 msgstr ""
-"Partagez votre connaissance et vos idées. Soumettez une proposition de "
-"présentation ou un tutoriel avant le 21 juin. Nous allons sprinter après la "
-"conférence également, alors vous pouvez nous envoyer vos idéesde sprint."
+"Partagez vos connaissances et idées. Soumettez une proposition de "
+"présentation ou un tutoriel avant le 21 juin 2013. Nous aurons également des sprints après la "
+"conférence, alors envoyez nous vos idées de sprints."
 
 #: templates/homepage.html:32
 msgid "Submit a proposal"
@@ -363,18 +363,18 @@ msgstr "Plus d'information"
 #: templates/homepage.html:43
 msgid "VENUE_HOMEPAGE_BLURB"
 msgstr ""
-"Soyez des notres du 9 au 13 août 2013 au Chestnut Conference Centre à "
-"Toronto. La conférence est à quelques mètre du métro et en plein centre-"
-"ville, ce qui vous laissera la chance d'explorer la ville reine lorsque vous "
-"ne serez pas occupé à coder ou partager avec les autres pythoneux."
+"Soyez des nôtres du 9 au 13 août 2013 au Chestnut Conference Centre à "
+"Toronto. La conférence est à quelques mètres du métro et en plein centre-"
+"ville, ce qui vous laissera la chance d'explorer la Ville Reine lorsque vous "
+"ne serez pas occupé à coder ou partager avec les autres Pythoneux."
 
 #: templates/homepage.html:48
 msgid "HOMEPAGE_SCHEDULE_BLURB"
 msgstr ""
 "Commencez votre aventure le vendredi soir avec le party d'ouverture. "
 "Continuez samedi avec les conférences et vous pourrez même commencer les "
-"aprints cette soirée là. Terminez avec les sprints, ou les tutoriels et les "
-"présentations dimanche."
+"sprints cette soirée là. Terminez avec les sprints ou les tutoriels et les "
+"présentations le dimanche."
 
 #: templates/homepage.html:57
 msgid "Looking for PyCon Montréal 2014?"
